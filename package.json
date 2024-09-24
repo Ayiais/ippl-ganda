@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "next": "^14.2.11",
+    "react-quill": "^2.0.0"
+  }
+}

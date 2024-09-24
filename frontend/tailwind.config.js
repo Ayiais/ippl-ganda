@@ -16,7 +16,10 @@ module.exports = {
         biru: '#7BB3B4',  
         birumuda: '#CFE9E6', 
         putih: '#ffff',
-        abumuda: '#F1F4F5', // Warna hijau tambahan
+        abumuda: '#F1F4F5',          // Warna abu-abu muda
+        'custom-gray': '#D9D9D9',    // Warna abu-abu custom
+        customBlue: '#0B61AA',       // Warna biru custom yang diperbarui
+        newHeaderColor: '#77BEE1',   // Warna header baru
       },
       container: {
         center: true,
@@ -27,6 +30,10 @@ module.exports = {
           xl: "5rem",
           "2xl": "6rem",
         },
+      },
+      fontFamily: {
+        appearance: ['Appearance', 'sans-serif', 'Poppins'], // Add Appearance font
+        poppins: ['Poppins', 'sans-serif'],  
       },
     },
   },
